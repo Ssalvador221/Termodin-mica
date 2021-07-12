@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@media screen and (min-width: 400px) {
+  @import url(Termodinamica.html);
+}
+
+@media screen and (max-width: 400px) {
+  @import url(Termodinamica.html);
+}
+
+
+header{
+  background: -webkit-gradient(linear, left top, right top, from(#0569ac), to(#7825e4)) no-repeat;
+  width: 100%;
+  height: 55px;
+  position: fixed;
+}
+
+a.animated-button.thar-one {
+  color: rgb(228, 173, 173);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+  display: inline;
+  margin-left: 400px;
+  top: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: fixed;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-one:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: none;
+}
+a.animated-button.thar-one:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+}
+a.animated-button.thar-one:before {
+	display: inline;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #e68226;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-two {
+	color:rgb(167, 89, 0);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+	cursor: pointer;
+	display: inline;
+	position: fixed;
+  margin-left: 490px;
+  top: 14px;
+  padding-top: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+	position: fixed;
+	border: 2px solid rgb(0, 0, 0);
+  border-radius: 2px;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-two:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: ntwo;
+}
+a.animated-button.thar-two:hover:before {
+	top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+a.animated-button.thar-two:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #db821c;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-three {
+	color: rgb(199, 97, 2);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  cursor: pointer;
+  display: inline;
+  margin-left: 632px;
+  top: 14px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: fixed;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1)0s;
+}
+a.animated-button.thar-three:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: nthree;
+}
+a.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #ce7328;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+a.animated-button.thar-four {
+  color: rgb(172, 97, 0);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+  display: inline;
+  margin-left: 857px;
+  top: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: fixed;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+a.animated-button.thar-four:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: nfour;
+}
+a.animated-button.thar-four:hover:before {
+	right: 0%;
+	left: auto;
+	width: 100%;
+}
+a.animated-button.thar-four:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #cf752c;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+
+
+
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #df7802;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer li{ 
+  margin: 8px;
+}
+
+form{
+  width: 100%;
+}
+
