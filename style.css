@@ -17,14 +17,15 @@
 
 
 header{
-  background: -webkit-gradient(linear, left top, right top, from(#0569ac), to(#7825e4)) no-repeat;
+  background: -webkit-gradient(linear, left top, right top, from(#2b72a1), to(#4c9482)) no-repeat;
   width: 100%;
   height: 55px;
   position: fixed;
 }
 
+
 a.animated-button.thar-one {
-  color: rgb(228, 173, 173);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
@@ -63,7 +64,7 @@ a.animated-button.thar-one:before {
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button.thar-two {
-	color:rgb(167, 89, 0);
+	color:rgb(255, 255, 255);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
@@ -104,7 +105,7 @@ a.animated-button.thar-two:before {
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button.thar-three {
-	color: rgb(199, 97, 2);
+	color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
@@ -145,7 +146,7 @@ a.animated-button.thar-three:before {
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
 }
 a.animated-button.thar-four {
-  color: rgb(172, 97, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
@@ -184,8 +185,38 @@ a.animated-button.thar-four:before {
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
 }
 
+.container{
+	background: #609bc2;
+	height:300px;
+}
 
 
+.titulo-principal{
+    max-width: 600px;
+	font-size: 48px;
+	padding-top: 50px;
+    font-family:'Courier New', Courier, monospace;
+	color: #cf5f5f;
+	text-shadow: 2px 3px 0px #3f3d3d;
+    }
+  
+
+
+.titulo-principal:after{
+ content: '|';
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
 
 footer{
   font-family: Arial, Helvetica, sans-serif;
