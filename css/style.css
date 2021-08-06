@@ -6,14 +6,8 @@
   width: device-width;
   zoom: 1;
 }
+	
 
-@media screen and (min-width: 400px) {
-  @import url(Termodinamica.html);
-}
-
-@media screen and (max-width: 400px) {
-  @import url(Termodinamica.html);
-}
 
 
 header{
@@ -24,184 +18,174 @@ header{
   z-index: 1;
 }
 
-
-a.animated-button.thar-one {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  cursor: pointer;
-  display: inline;
-  margin-left: 400px;
-  top: 14px;
-  padding-left: 8px;
-  padding-right: 8px;
-  position: fixed;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 2px;
-  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-}
-a.animated-button.thar-one:hover {
-	color: #000 !important;
-	background-color: transparent;
-	text-shadow: none;
-}
-a.animated-button.thar-one:hover:before {
-	bottom: 0%;
-	top: auto;
-	height: 100%;
-}
-a.animated-button.thar-one:before {
-	display: inline;
+.home{
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-left: 98px;
 	position: absolute;
-	left: 0px;
-	top: 0px;
-	height: 0px;
-	width: 100%;
-	z-index: -1;
-	content: '';
-	color: #000 !important;
-	background: #e68226;
-	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-}
-a.animated-button.thar-two {
-	color:rgb(255, 255, 255);
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 21px;
-	cursor: pointer;
-	display: inline;
-	position: fixed;
-  margin-left: 490px;
-  top: 14px;
-  padding-top: 2px;
-  padding-left: 8px;
-  padding-right: 8px;
-	position: fixed;
-	border: 2px solid rgb(0, 0, 0);
-  border-radius: 2px;
-	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-}
-a.animated-button.thar-two:hover {
-	color: #000 !important;
-	background-color: transparent;
-	text-shadow: ntwo;
-}
-a.animated-button.thar-two:hover:before {
-	top: 0%;
-	bottom: auto;
-	height: 100%;
-}
-a.animated-button.thar-two:before {
-	display: block;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	height: 0px;
-	width: 100%;
-	z-index: -1;
-	content: '';
-	color: #000 !important;
-	background: #db821c;
-	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-}
-a.animated-button.thar-three {
+	text-decoration: none;
 	color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
-  cursor: pointer;
-  display: inline;
-  margin-left: 632px;
-  top: 14px;
-  padding-top: 3px;
-  padding-bottom: 1px;
-  padding-left: 8px;
-  padding-right: 8px;
-  position: fixed;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 2px;
-  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1)0s;
+	transition: 0.5s;
 }
-a.animated-button.thar-three:hover {
-	color: #000 !important;
-	background-color: transparent;
-	text-shadow: nthree;
+
+.home:hover{
+	font-size: 28px;
+	color: rgb(0, 0, 0);
+	border-bottom: 2px solid rgb(255, 211, 12);	
 }
-a.animated-button.thar-three:hover:before {
-	left: 0%;
-	right: auto;
-	width: 100%;
-}
-a.animated-button.thar-three:before {
-	display: block;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	height: 100%;
-	width: 0px;
-	z-index: -1;
-	content: '';
-	color: #000 !important;
-	background: #ce7328;
-	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
-}
-a.animated-button.thar-four {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  cursor: pointer;
-  display: inline;
-  margin-left: 857px;
-  top: 14px;
-  padding-left: 8px;
-  padding-right: 8px;
-  position: fixed;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 2px;
-  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
-}
-a.animated-button.thar-four:hover {
-	color: #000 !important;
-	background-color: transparent;
-	text-shadow: nfour;
-}
-a.animated-button.thar-four:hover:before {
-	right: 0%;
-	left: auto;
-	width: 100%;
-}
-a.animated-button.thar-four:before {
-	display: block;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 100%;
-	width: 0px;
-	z-index: -1;
-	content: '';
-	color: #000 !important;
-	background: #cf752c;
-	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
-}
+
+.thar-two{
+		font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-size: 23px;
+		margin-left: 206px;
+		margin-top: 11px;
+		position: absolute;
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		transition: 0.5s;
+	}
+	
+	.thar-two:hover{
+		font-size: 28px;
+		color: rgb(0, 0, 0);
+		border-bottom: 2px solid rgb(255, 211, 12);	
+	}
+
+	.thar-four{
+		font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-size: 23px;
+		margin-left: 380px;
+		margin-top: 11px;
+		position: absolute;
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		transition: 0.5s;
+	}
+
+	.thar-four:hover{		
+		font-size: 28px;
+		color: rgb(0, 0, 0);
+		border-bottom: 2px solid rgb(255, 211, 12);	
+
+	}
+
+
+	.thar-three{
+		font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-size: 23px;
+		margin-left: 490px;
+		margin-top: 11px;
+		position: absolute;
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		transition: 0.5s;
+	}
+
+	.thar-three:hover{
+		font-size: 28px;
+		color: rgb(0, 0, 0);
+		border-bottom: 2px solid rgb(255, 211, 12);	
+	}
 
 .container{
-	background: #609bc2;
-	height:300px;
+	background: -webkit-gradient(linear, left top, right top, from(#2b72a1), to(#4c9482)) no-repeat;
+	height:130px;
 }
 
 .container-two{
 	height: 700px;
 }
 
+h2{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 35px;
+	margin-left: -701px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+p{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 24px;
+	width: 500px;
+	margin-left: 60px;
+}
+
+.saiba-mais{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 2px;
+	margin-left: 60px;
+	transition: 0.5s;
+}
+
+.saiba-mais:hover{
+	font-size: 28px;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+
+.container-two{
+    background: linear-gradient(-45deg, #266792, #e9b047, #2b72a1, #1cdd45);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.calcular{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 30px;
+	width: 400px;
+	margin-left: 850px;
+	padding-top: 40px;
+}
+
+.calcule-ja{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 2px;
+	margin-left: 850px;
+	transition: 0.5s;
+}
+
+.calcule-ja:hover{
+	font-size: 28px;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+
+
 .titulo-principal{
-    max-width: 600px;
-	font-size: 48px;
+    max-width: 2000px;
+	font-size: 40px;
 	padding-top: 50px;
-	margin-left: 6px;
+	margin-left: 85px;
     font-family:'Courier New', Courier, monospace;
-	color: #cf5f5f;
+	color: #e6b42b;
 	text-shadow: 2px 3px 0px #3f3d3d;
     }
   
@@ -209,7 +193,7 @@ a.animated-button.thar-four:before {
 
 .titulo-principal:after{
  content: '|';
- margin-left: 5px;
+ margin-left: 10px;
  opacity: 1;
  animation: pisca .7s infinite;
 }
@@ -225,8 +209,8 @@ a.animated-button.thar-four:before {
 
 footer{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #df7802;
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 8px;
   display: flex;
   justify-content: center;
